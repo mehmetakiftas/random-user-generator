@@ -11,12 +11,14 @@ A JavaScript project that uses the Fetch API to generate random user data, inclu
 ## Usage
 
 The project is designed to be used out of the box, but you can also customize the user data by modifying the Fetch API parameters.
-
+`
 fetch("https://randomuser.me/api/?results=10")
   .then((res) => res.json())
   .then((data) => {
     // handle data
   });
+
+`
 
 You can change the results parameter to specify the number of users you want to generate.
 
